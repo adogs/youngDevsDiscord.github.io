@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+
+  /* temp */
+  margin: 40px 10% 0 10%;
+}
+
+
+/* GRID
+  Put .col-objects into a .row-objects
+  add .cX to the .col-objects.
+  the object will have a width of (100% / X)
+
+  Yeah that's how I do it. Change it, if it bugs you.
+*/
+
+.row {
+  display: block;
+  box-sizing: border-box;
+  overflow: auto;
+}
+.row .col {
+  display: inline-block;
+  float: left;
+  box-sizing: border-box;
+}
+.row .col.c1 {
+  width: 100%;
+}
+.row .col.c2 {
+  width: 50%;
+}
+.row .col.c3 {
+  width: 33.3333%;
+}
+.row .col.c4 {
+  width: 25%;
+}
+.row .col.c5 {
+  width: 20%;
+}
+.row .col.c6 {
+  width: 16%;
+}
