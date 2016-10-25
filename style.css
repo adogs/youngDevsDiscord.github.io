@@ -2,6 +2,8 @@ body {
 	margin: 0;
 
 	font-family: 'Roboto', sans-serif;
+
+	color: #f4f4f4;
 }
 
 
@@ -15,8 +17,10 @@ navbar {
 	padding: 0 10% 0 10%;
 
 	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
 
-	background: #00796b;
+	background: #00796b; /* Teal-700 */
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 navbar ::selection {
 	background: #00796b;
@@ -40,6 +44,43 @@ navbar a:hover {
 	background: #fff;
 	color: #00796b;
 }
+topmargin {
+	display: block;
+	height: 80px;
+}
+
+/* CARD */
+card {
+	background: #fff;
+	border-radius: 2px;
+	display: inline-block;
+	box-sizing: border-box;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	padding: 8px 0 8px 0;
+}
+card title {
+	display: block;
+	margin: 16px;
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+
+	color: #000;
+}
+card text {
+	display: inline-block;
+	margin: 16px;
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+
+	color: #000;
+}
+
+/* CONTENT */
+content {
+	padding: 0 10% 0 10%;
+}
 
 
 /* GRID
@@ -54,6 +95,7 @@ Yeah that's how I do it. Change it, if it bugs you.
 	display: block;
 	box-sizing: border-box;
 	overflow: auto;
+	width: 100%;
 }
 .row .col {
 	display: inline-block;
