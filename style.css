@@ -1,8 +1,44 @@
 body {
 	margin: 0;
 
-	/* temp */
-	margin: 40px 10% 0 10%;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* NAVBAR */
+navbar {
+	width: 100%;
+	position: fixed;
+	z-index: 2;
+	box-sizing: border-box;
+	padding: 0 10% 0 10%;
+
+	font-family: 'Roboto Mono', monospace;
+
+	background: #00796b;
+}
+navbar ::selection {
+	background: #00796b;
+	color: #fff;
+}
+navbar p {
+	display: inline;
+	padding: 20px 20px 20px 20px;
+
+	color: #fff;
+}
+navbar a {
+	display: inline-block;
+	padding: 20px 20px 20px 20px;
+
+	text-decoration: none;
+
+	color: #fff;
+}
+navbar a:hover {
+	background: #fff;
+	color: #00796b;
 }
 
 
