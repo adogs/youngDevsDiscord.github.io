@@ -15,15 +15,69 @@ body ::selection {
 }
 
 
-/* BASIC FORMAT */
-code {
+a {
+	color: #00796b;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+/* Material Typography (Desktop Variant) */
+.text-button {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 500;
+}
+.text-caption {
+  font-size: 12px;
+  font-weight: 400;
+}
+.text-body1 {
+  font-size: 13px;
+  font-weight: 400;
+}
+.text-body2 {
+  font-size: 13px;
+  font-weight: 500;
+}
+.text-subheading {
+  font-size: 15px;
+  font-weight: 400;
+}
+.text-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+.text-headline {
+  font-size: 24px;
+  font-weight: 400;
+}
+.text-display1 {
+  font-size: 34px;
+  font-weight: 400;
+}
+.text-display2 {
+  font-size: 45px;
+  font-weight: 400;
+}
+.text-display3 {
+  font-size: 56px;
+  font-weight: 400;
+}
+.text-display4 {
+  font-size: 112px;
+  font-weight: 300;
+}
+/* Other formatting */
+.text-code {
 	font-family: 'Roboto Mono', sans-serif;
 }
-display3 {
-	font-size: 56px;
-}
-display2 {
-	font-size: 45px;
+.text-description {
+	font-size: 22px;
+	font-weight: 300;
 }
 
 
@@ -68,6 +122,7 @@ navbar a {
 }
 navbar a:hover {
 	background: #fff;
+	text-decoration: none;
 	color: #00796b;
 }
 topmargin {
@@ -79,11 +134,17 @@ topmargin {
 card {
 	width: 100%;
 	background: #fff;
+	color: #000;
 	border-radius: 2px;
 	display: inline-block;
 	box-sizing: border-box;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); /* NOT WORKING */
 	padding: 8px 0 8px 0;
+	margin: 8px 0 8px 0;
+}
+card.dark {
+	background: #333;
+	color: #fff;
 }
 card cardtitle {
 	display: block;
@@ -91,8 +152,6 @@ card cardtitle {
 
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
-
-	color: #000;
 }
 card cardtext {
 	display: inline-block;
@@ -100,8 +159,6 @@ card cardtext {
 
 	font-family: 'Roboto', sans-serif;
 	font-size: 13px;
-
-	color: #000;
 }
 
 /* CONTENT */
