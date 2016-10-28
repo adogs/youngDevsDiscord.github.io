@@ -1,12 +1,18 @@
 body {
-  background: #f4f4f4;
+	background: #f4f4f4;
 }
 
 .content {
-  padding: 0 20% 0 20%;
+	padding: 0 20% 0 20%;
 }
 
 .navbar-logo {
-  height: 50px;
-  vertical-align: middle;
+	height: 50px;
+	vertical-align: middle;
+}
+
+/*HEADER*/
+#header {
+	margin-top: 0;
+	padding: 0% 25% 0% 25%;
 }
