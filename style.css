@@ -1,7 +1,23 @@
+/********GENERAL********/
+
+/*Sticky footer (Making the footer behave properly)*/
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+/*End*/
+
+
 body {
 	background: #f4f4f4;
 }
 
+/*Navbar*/
 .content {
 	padding: 0 20% 0 20%;
 }
@@ -11,8 +27,37 @@ body {
 	vertical-align: middle;
 }
 
-/*HEADER*/
 #header {
 	margin-top: 0;
+	margin-bottom: 50px;
 	padding: 0% 25% 0% 25%;
+}
+
+/*Footer*/
+.page-footer img {
+	height: 50px;
+}
+
+.page-footer .col {
+	text-align: center;
+}
+
+.page-footer .footerLinks{
+	font-size: 15px;
+}
+
+/********END OF GENERAL********/
+
+.profileCardHolder {
+	margin-bottom: 50px; 
+	cursor: default;
+}
+
+.profileCardHolder .card {
+	overflow: hidden;
+}
+
+.card-image {
+	height: 200px;
+	width: 200px;
 }

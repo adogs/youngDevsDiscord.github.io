@@ -13,47 +13,132 @@
 	<body>
 		
 		<!-- NAVBAR -->
-		<nav class="teal darken-3 content">
-			<div class="nav-wrapper">
-				<a class="brand-logo"><img class="navbar-logo" src="logo.png"></a>
-				<ul id="nav-mobile" class="right hide-on-med-and-down">
-					<li><a href="#!">.home();</a></li>
-					<li><a href="#!">.projects();</a></li>
-					<li><a href="aboutUs.html">.about(Us);</a></li>
-					<li><a href="#!">.members();</a></li>
-				</ul>
-			</div>
-		</nav>
-		
-		<!-- HEADER -->
-			<div id="header" class="card teal darken-1 center-align">
-				<div class="card-content white-text">
-					<span class="card-title">An introduction to our team!</span>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec porttitor nulla, sit amet feugiat metus. Vivamus non enim vestibulum, fermentum est vel, accumsan velit. Proin vitae maximus eros, sagittis dictum elit. Sed egestas, lacus non finibus placerat, mauris purus aliquet odio, eu vestibulum orci urna quis tellus. Etiam vel dolor tortor. Fusce eu mauris sed velit facilisis vestibulum.
-					</p>
+		<header>	
+			<nav class="blue content">
+				<div class="nav-wrapper">
+					<a class="brand-logo"><img class="navbar-logo" src="logo.png"></a>
+					<ul id="nav-mobile" class="right hide-on-med-and-down">
+						<li><a href="index.html">.home();</a></li>
+						<li><a href="#!">.projects();</a></li>
+						<li><a href="aboutUs.html">.about(Us);</a></li>
+						<li><a href="#!">.members();</a></li>
+						<li><a href="profilePage.html">.my(Profile)</a></li>
+					</ul>
 				</div>
-			</div>
+			</nav>	
+		</header>
 		
 		<!-- CONTENT -->
-		<div class="container">
-			<div class="card hoverable">
-				<img src="#">
-				<div id="userName" class="card-title">Username</div>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec porttitor nulla, sit amet feugiat metus. Vivamus non enim vestibulum, fermentum est vel, accumsan velit. Proin vitae maximus eros, sagittis dictum elit.
-				</p>
+		<h1 class="blue-text text-darken-1 center">An introduction to our team!</h1>
+
+		<main>
+			<div class="container">
+				
+				<!-- Info card -->
+				<div class="profileCardHolder">
+					<div class="card blue lighten-5 hoverable">
+						<div class="card-image waves-effect waves-block waves-light right">
+							<img class="profilePic responsive-img activator" src="https://goo.gl/qJw4pO">
+						</div>
+						
+						<div class="card-content activator">
+							<span class="card-title grey-text text-darken-4 activator">{Username}, {Age}"<i class="material-icons right">more_vert</i></span>
+							
+							<!-- Very short description -->
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec porttitor nulla, sit amet feugiat metus. Vivamus non enim vestibulum, fermentum est vel, accumsan velit. Proin vitae maximus eros, sagittis dictum elit</p>
+							
+							<br>
+
+							<a class="blue-text" href="profilePage.html">Profile</a>
+						</div>
+						
+						<div class="card-reveal blue lighten-5">
+							<span class="card-title grey-text text-darken-4">About me<i class="material-icons right">close</i></span>
+							
+							<!-- A little more in-depth description (country, preferred programming language, age etc.) -->
+							<p>A more in-depth description. This idea may need some tweaking though. The idea with this section is to make a description of yourself, to give the users an idea of who we are. It could be like the one we've already written on Discord.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="profileCardHolder">
+					<div class="card blue lighten-5 hoverable">
+						<div class="card-image waves-effect waves-block waves-light right">
+							<img class="profilePic responsive-img activator" src="https://goo.gl/qJw4pO">
+						</div>
+						
+						<div class="card-content activator">
+							<span class="card-title grey-text text-darken-4 activator">{Username}, {Age}"<i class="material-icons right">more_vert</i></span>
+							
+							<!-- Very short description -->
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec porttitor nulla, sit amet feugiat metus. Vivamus non enim vestibulum, fermentum est vel, accumsan velit. Proin vitae maximus eros, sagittis dictum elit</p>
+							
+							<br>
+
+							<a class="blue-text" href="profilePage.html">Profile</a>
+						</div>
+						
+						<div class="card-reveal blue lighten-5">
+							<span class="card-title grey-text text-darken-4">About me<i class="material-icons right">close</i></span>
+							
+							<!-- A little more in-depth description (country, preferred programming language, age etc.) -->
+							<p>A more in-depth description. This idea may need some tweaking though. The idea with this section is to make a description of yourself, to give the users an idea of who we are. It could be like the one we've already written on Discord.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="profileCardHolder">
+					<div class="card blue lighten-5 hoverable">
+						<div class="card-image waves-effect waves-block waves-light right">
+							<img class="profilePic responsive-img activator" src="https://goo.gl/qJw4pO">
+						</div>
+						
+						<div class="card-content activator">
+							<span class="card-title grey-text text-darken-4 activator">{Username}, {Age}"<i class="material-icons right">more_vert</i></span>
+							
+							<!-- Very short description -->
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec porttitor nulla, sit amet feugiat metus. Vivamus non enim vestibulum, fermentum est vel, accumsan velit. Proin vitae maximus eros, sagittis dictum elit</p>
+							
+							<br>
+
+							<a class="blue-text" href="profilePage.html">Profile</a>
+						</div>
+						
+						<div class="card-reveal blue lighten-5">
+							<span class="card-title grey-text text-darken-4">About me<i class="material-icons right">close</i></span>
+							
+							<!-- A little more in-depth description (country, preferred programming language, age etc.) -->
+							<p>A more in-depth description. This idea may need some tweaking though. The idea with this section is to make a description of yourself, to give the users an idea of who we are. It could be like the one we've already written on Discord.</p>
+						</div>
+					</div>
+				</div>
+				
 			</div>
-		</div>
-
-
-
-		<!-- Add panels for the site.
-
-		Include:
-		Name/alias, age, primary programming language and country. Consíder adding a profile picture as well. Link to profile pages.-->
-
-
+		</main>
+			
+		<footer class="page-footer blue">
+			<div class="container">
+				<div class="row">	
+					<div class="col l6 s12">
+						<h5 class="white-text">Join us on Discord!</h5>
+						<img src="discord_logo.png">
+					</div>
+					<div class="col l6 s12">
+						<h5 class="white-text">...or follow us here:</h5>
+						<ul class="footerLinks">
+							<li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+							<li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>	
+			<div class="footer-copyright">
+				<div class="container">
+					Young Devs Discord - Fuck your rights®
+				</div>
+			</div>
+		</footer>
+			
 		<!-- Scripts -->
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
