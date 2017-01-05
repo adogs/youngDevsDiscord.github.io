@@ -14,7 +14,7 @@ main {
 
 
 body {
-	background: #f4f4f4;
+	background
 }
 
 /*Navbar*/
@@ -48,6 +48,7 @@ body {
 
 /********END OF GENERAL********/
 
+/******** aboutUs.html ********/
 .profileCardHolder {
 	margin-bottom: 50px; 
 	cursor: default;
@@ -61,3 +62,25 @@ body {
 	height: 200px;
 	width: 200px;
 }
+
+/******** END OF aboutUs.html ********/
+
+/*index.html*/
+.content {
+	text-align: center;
+}
+
+.content .container {
+	background-color: red;
+	text-align: center;
+}
+
+.content .container img {
+	height: 500px; 
+} 
+
+.content .container h1 {
+	font-size: 100px;
+}
+
+/*END OF index.html*/

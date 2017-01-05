@@ -1,0 +1,411 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"intro",
+				"introduction"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"animatecss-",
+				"animatecss-bounce\tbounce - Attention Seekers"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"st",
+				"static"
+			],
+			[
+				"align",
+				"text-align"
+			],
+			[
+				"ovewr",
+				"overflow"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"lighten",
+				"lighten-5"
+			],
+			[
+				"overflo",
+				"overflow"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"shaw",
+				"text-shadow"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"inline",
+				"inline"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"DI",
+				"display"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"teme",
+				"Theme"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 150.0,
+		"last_filter": "enable",
+		"selected_items":
+		[
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sublime",
+				"SublimeREPL: Python"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			],
+			[
+				"sublimerepl",
+				"SublimeREPL: Python"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"package control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Channel"
+			],
+			[
+				"packagecontrolenable",
+				"Package Control: Enable Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: INST",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/1_Biblioteker/Dokumenter/2_Kodning/Python/testTest.html",
+		"/C/Users/esben/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/esben/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/esben/AppData/Roaming/Sublime Text 3/Packages/User/SublimeREPL.sublime-settings",
+		"/D/1_Biblioteker/Dokumenter/2_Kodning/Python/Welcome.py",
+		"/D/1_Biblioteker/Dokumenter/2_Kodning/Hjemmesider/YDD/youngDevsDiscord.github.io/style.css",
+		"/D/1_Biblioteker/Dokumenter/2_Kodning/Hjemmesider/YDD/youngDevsDiscord.github.io/index - test.html",
+		"/D/1_Biblioteker/Dokumenter/2_Kodning/Hjemmesider/YDD/youngDevsDiscord.github.io/aboutUs.html",
+		"/D/1_Biblioteker/Dokumenter/2_Kodning/Hjemmesider/YDD/youngDevsDiscord.github.io/index.html",
+		"/D/1_Biblioteker/Dokumenter/2_Kodning/Hjemmesider/YDD/youngDevsDiscord.github.io/discord_logo.png",
+		"/D/1_Biblioteker/Dokumenter/3_Fonts/dejavu-fonts-ttf-2.37/BUGS",
+		"/D/1_Biblioteker/Dokumenter/3_Fonts/dejavu-fonts-ttf-2.37/dejavu-fonts-ttf-2.37/README.md",
+		"/D/1_Biblioteker/Dokumenter/2_Kodning/Hjemmesider/YDD/youngDevsDiscord.github.io/materialize.css",
+		"/C/Users/esben/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/esben/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/D/1_Biblioteker/Dokumenter/Andet/Hans/AppData/Local/Microsoft/Windows/Temporary Internet Files/Low/Content.IE5/EUHWVDFM/site[1].js",
+		"/D/1_Biblioteker/Dokumenter/2_Kodning/Batch+CMD/start.bat",
+		"/D/1_Biblioteker/Dokumenter/2_Kodning/Batch+CMD/work.bat",
+		"/D/1_Biblioteker/Dokumenter/2_Kodning/Python/test.py",
+		"/D/1_Biblioteker/Dokumenter/2_Kodning/Hjemmesider/YDD/youngDevsDiscord.github.io/profilePage.html",
+		"/D/1_Biblioteker/Dokumenter/2_Kodning/Hjemmesider/test index.html",
+		"/D/1_Biblioteker/Dokumenter/2_Kodning/starter-template/css/materialize.css",
+		"/D/1_Biblioteker/Dokumenter/2_Kodning/starter-template/js/materialize.js",
+		"/C/Users/esben/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/C/Users/esben/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/D/1_Biblioteker/OneDrive/Dokumenter/2_HTML/Young Devs/youngDevsDiscord.github.io/style.css",
+		"/D/1_Biblioteker/OneDrive/Dokumenter/2_HTML/Young Devs/youngDevsDiscord.github.io/index.html",
+		"/D/1_Biblioteker/OneDrive/Dokumenter/2_HTML/ECC/esbencronbach.github.io/index.html",
+		"/D/1_Biblioteker/OneDrive/Dokumenter/2_HTML/Young Devs/youngDevsDiscord.github.io/README.md",
+		"/D/1_Biblioteker/OneDrive/Dokumenter/Esben Cronbach/style.css",
+		"/D/1_Biblioteker/OneDrive/Dokumenter/Esben Cronbach/omMig.html",
+		"/D/1_Biblioteker/OneDrive/Dokumenter/Esben Cronbach/index.html",
+		"/D/1_Biblioteker/OneDrive/Dokumenter/Esben Cronbach/blog.html",
+		"/D/1_Biblioteker/OneDrive/Dokumenter/Esben Cronbach/personligeMål.html",
+		"/D/1_Biblioteker/OneDrive/Dokumenter/Esben Cronbach/exit_icon.png",
+		"/D/1_Biblioteker/Dokumenter/2_Kodning/Hjemmesider/test style.css",
+		"/D/1_Biblioteker/Dokumenter/2_Kodning/Hjemmesider/Esben Cronbach/style.css",
+		"/D/1_Biblioteker/Dokumenter/2_Kodning/Hjemmesider/Esben Cronbach/index.html",
+		"/D/1_Biblioteker/Skrivebord/Air-Classic-2016-0926.zip",
+		"/D/1_Biblioteker/OneDrive/Dokumenter/Skole hjemmeside/index.html",
+		"/D/1_Biblioteker/OneDrive/Dokumenter/Skole hjemmeside/style.css",
+		"/C/Users/esben/Google Drev/Kodning/News site/style.css",
+		"/C/Users/esben/Google Drev/Kodning/News site/index.html",
+		"/D/1_Biblioteker/Dokumenter/2_Kodning/Hjemmesider/News site/style.css",
+		"/D/1_Biblioteker/Dokumenter/2_Kodning/Hjemmesider/News site/index.html",
+		"/C/Users/esben/Google Drev/Kodning/HTML Tutorial side/index.html",
+		"/C/Users/esben/Google Drev/Kodning/HTML Tutorial side/style.css",
+		"/D/1_Biblioteker/Dokumenter/2_Kodning/Hjemmesider/HTML Hjælp/style.css",
+		"/D/1_Biblioteker/Dokumenter/2_Kodning/Hjemmesider/HTML Hjælp/index.html",
+		"/D/1_Biblioteker/Dokumenter/2_Kodning/Hjemmesider/index.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">\n",
+			"adgangskoder",
+			"CONTENT",
+			"content",
+			"header",
+			"id",
+			"activator",
+			"nav",
+			"red",
+			"card-reveal",
+			"card",
+			"header",
+			"#",
+			"id",
+			"\n\t"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "testTest.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 206.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
