@@ -1,44 +1,280 @@
 body {
-  margin: 0;
+	margin: 0;
 
-  /* temp */
-  margin: 40px 10% 0 10%;
+	background: #f4f4f4;
 }
 
+.no-select {
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.right {
+	float: right;
+}
 
-/* GRID
-  Put .col-objects into a .row-objects
-  add .cX to the .col-objects.
-  the object will have a width of (100% / X)
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 20% 0 20%;
 
-  Yeah that's how I do it. Change it, if it bugs you.
-*/
+	background: #222;
+}
+.header .header-logo {
+	order: 1;
+}
+.header .header-logo img {
+	height: 60px;
+	margin: 5px 0 5px 0;
+}
 
-.row {
-  display: block;
-  box-sizing: border-box;
-  overflow: auto;
+.title {
+	display: block;
+	width: 100%;
+	padding: 100px 0 100px 0;
+
+	background: url('187_1003703_africa_dxm.png');
+	background-size: cover;
+	background-position: center;
+	box-shadow: inset 0px 2px 5px #222, inset 0px -2px 5px #222;
 }
-.row .col {
-  display: inline-block;
-  float: left;
-  box-sizing: border-box;
+.title .title-description {
+	display: block;
+	width: 100%;
+	padding: 0 0 20px 0;
+
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40pt;
+	color: #f4f4f4;
+	text-shadow: 0px 2px 3px #222;
 }
-.row .col.c1 {
-  width: 100%;
+.title .title-links {
+	display: flex;
+	justify-content: center;
+	width: 100%;
 }
-.row .col.c2 {
-  width: 50%;
+.title .title-links .link {
+	display: block;
+	flex-direction: column;
 }
-.row .col.c3 {
-  width: 33.3333%;
+.title .title-links .link img {
+	display: block;
+	height: 100px;
+	margin: 0 auto 0 auto;
+
+	filter: drop-shadow(0px 2px 3px #222);
+	-webkit-filter: drop-shadow(0px 2px 3px #222);
 }
-.row .col.c4 {
-  width: 25%;
+
+.content {
+	padding: 20px 20% 0 20%;
 }
-.row .col.c5 {
-  width: 20%;
+.content h1 {
+	display: block;
+	margin: 0 0 10px 0;
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16pt;
+	text-transform: uppercase;
+	color: #222;
 }
-.row .col.c6 {
-  width: 16%;
+.content .row {
+	display: flex;
+	justify-content: space-between;
+}
+.content .content-announcements {
+	display: block;
+	order: 1;
+	margin: 0 20px 0 0;
+}
+.content .content-devoftheday {
+	display: block;
+	order: 2;
+}
+.content ::selection {
+	background: #222;
+	color: #f4f4f4;
+}
+
+.unit {
+	display: block;
+	box-sizing: border-box;
+	padding: 4px 10px 4px 10px;
+
+	border-left: solid 2px #922;
+}
+.unit.unit-announcement {
+	max-width: 40vw;
+}
+.unit h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20pt;
+	text-transform: none;
+	color: #222;
+}
+.unit p {
+	display: block;
+	margin: 0;
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14pt;
+}
+
+.actionbar {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	margin: 10px 0 0 0;
+}
+.actionbar.no-margin {
+	margin: 0;
+}
+.actionbar .actionbar-links {
+	display: flex;
+	flex-grow: 0;
+}
+.actionbar .actionbar-links a {
+	display: block;
+	flex-grow: 0;
+	padding: 2px 10px 2px 10px;
+
+	border: solid 1px #222;
+	border-left: none;
+	color: #222;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12pt;
+	text-decoration: none;
+	transition: .2s;
+}
+.actionbar .actionbar-links a:first-child {
+	border-top-left-radius: 12.5px;
+	border-bottom-left-radius: 12.5px;
+	border-left: solid 1px #222;
+}
+.actionbar .actionbar-links a:last-child {
+	border-top-right-radius: 12.5px;
+	border-bottom-right-radius: 12.5px;
+}
+.actionbar .actionbar-links a:hover {
+	background: #222;
+	color: #f4f4f4;
+	transition: .2s;
+}
+.actionbar .actionbar-author{
+	display: block;
+	margin: 0;
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12pt;
+}
+.actionbar .actionbar-author a {
+	display: block;
+	padding: 0 6px 0 0;
+
+	text-decoration: none;
+	color: #222;
+	border-radius: 12.5px;
+}
+.actionbar .actionbar-author a:hover {
+	color: #f4f4f4;
+	background: #222;
+}
+.actionbar .actionbar-author img {
+	height: 25px;
+	clip-path: circle(12.5px at center);
+	vertical-align: middle;
+	margin: 0 3px 0 0;
+}
+
+.devcard {
+	display: block;
+	margin: 5px;
+
+	background: #f4f4f4;
+	box-shadow: 0px 2px 3px #222, 0px 0px 6px #666;
+	border-radius: 2px;
+}
+.devcard.memberlist {
+	width: 20vw;
+}
+.devcard .devcard-header {
+	display: flex;
+	padding: 5px;
+}
+.devcard .devcard-header .devcard-profilepic img {
+	display: block;
+	order: 1;
+	flex-grow: 0;
+	height: 50px;
+	clip-path: circle(25px at center);
+	margin: 0 10px 0 0;
+}
+.devcard .devcard-header .devcard-devinfo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	order: 2;
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12pt;
+}
+.devcard .devcard-header .devcard-devinfo .devcard-name {
+	display: block;
+	margin: 0 0 4px 0;
+	font-weight: bold;
+}
+.devcard .devcard-header .devcard-devinfo .devcard-languages {
+	display: block;
+	margin: 0;
+	font-size: 10pt;
+}
+.devcard .devcard-header .devcard-devinfo .devcard-languages .banner {
+	margin: 0 0 2px 0;
+}
+.devcard .devcard-body {
+	padding: 5px;
+}
+
+.banner {
+	display: inline-block;
+	padding: 0 2px 0 2px;
+
+	border-radius: 2px;
+	text-decoration: none;
+	font-style: none;
+	font-weight: normal;
+}
+.banner.banner-red {
+	background: #922;
+	color: #f4f4f4;
+}
+.banner.banner-black {
+	background: #222;
+	color: #f4f4f4;
+}
+.banner.banner-medium {
+	font-size: 14pt;
+}
+.banner.banner-small {
+	font-size: 10pt;
+}
+
+.footer {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 10px 20% 10px 20%;
+	box-sizing: border-box;
+
+	background: #222;
+	color: #f4f4f4;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12pt;
 }
